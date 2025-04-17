@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Воронеж Град
 
-## Getting Started
+1.  Текстовая страница `text-page`
 
-First, run the development server:
+- Текстовый блок `text-content`
+- Галерея изображений `image-gallery`
+- Список документов `document-list` `document-card`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2.  Главная страница `home-page`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Промо `promo-list` `promo-card`
+- Список проектов `project-list` `project-card`
+- Кредитный калькулятор `loan-calculator`
+- О компании `stat-list` `stat-card`
+- Новости `news-list` `news-card`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3.  Проекты `projects-page`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Список проектов `project-list` `project-card`
 
-## Learn More
+4.  Коммерция `commerce-page`
 
-To learn more about Next.js, take a look at the following resources:
+- Список проектов `project-list` `project-card`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5.  Проект `project-page`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Презентационный блок `hero`
+- Описание проекта `info-content`
+- Особенности проекта `feature-list` `feature-card`
+- Генплан `master-plan`
+- Инфраструктура `location`
+- Планировки `floor-plan-list` `floor-plan-card`
+- Виды отделки `info-content`
+- Способы покупки `loan-list` `loan-card`
+- Ход строительства `media-gallery`
 
-## Deploy on Vercel
+6.  Программа кредитования `loan-page`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Список программ кредитования `loan-list` `loan-card`
+- Кредитный калькулятор `loan-calculator`
+- Форма обратной связи `feedback`
+- Партнеры `partner-list` `partner-card`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+7.  О компании `company-page`
+
+- Факты о компании `stat-list` `stat-card`
+- Видео о компании `intro-video`
+- Команда `team-list` `team-card`
+- Цитаты `quote-list` `quote-card`
+- Текстовый блок `text-content`
+
+8.  Новости `news-page`
+
+- Список новостей `news-list` `news-card`
+
+9.  Новость `article-page`
+
+- Новостной блок `article-content`
+
+10. Контакты `contact-page`
+
+- Контакты офиса `contact-list`
+- Карта `contact-map`
+
+11. Результаты поиска `search-page`
+
+- Список результатов поиска `search-list` `search-card`
+
+12. 404-страница `not-found`
+
+- Блок уведомления об ошибке `text-content`
