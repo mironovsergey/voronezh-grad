@@ -16,7 +16,7 @@ import LoanList from '@/components/blocks/loan-list';
 import Location from '@/components/blocks/location';
 import MasterPlan from '@/components/blocks/master-plan';
 import MediaGallery from '@/components/blocks/media-gallery';
-import NewsList from '@/components/blocks/news-list';
+import NewsListServer from '@/components/blocks/news-list-server';
 import PartnerList from '@/components/blocks/partner-list';
 import ProjectList from '@/components/blocks/project-list';
 import QuoteList from '@/components/blocks/quote-list';
@@ -24,6 +24,8 @@ import SearchList from '@/components/blocks/search-list';
 import StatList from '@/components/blocks/stat-list';
 import TeamList from '@/components/blocks/team-list';
 import TextContent from '@/components/blocks/text-content';
+import PromoList from '@/components/blocks/promo-list';
+
 
 interface BlockComponentProps {
   data: Group;
@@ -48,7 +50,7 @@ const blockComponents: Record<string, BlockComponent> = {
   location_block: Location,
   master_plan_block: MasterPlan,
   media_gallery_block: MediaGallery,
-  news_list_block: NewsList,
+  news_list_block: NewsListServer,
   partner_list_block: PartnerList,
   project_list_block: ProjectList,
   quote_list_block: QuoteList,
@@ -56,6 +58,7 @@ const blockComponents: Record<string, BlockComponent> = {
   stat_list_block: StatList,
   team_list_block: TeamList,
   text_content_block: TextContent,
+  promo_list_block: PromoList,
 };
 
 export const getBlockComponent = (blockName: string): BlockComponent | undefined => {

@@ -3,6 +3,7 @@
 import { useRef } from 'react';
 import { Provider } from 'react-redux';
 import { makeStore, AppStore } from '@/store/store';
+import { GlobalStyle } from '@/lib/global-styles';
 
 const StoreProvider = ({ children }: { children: React.ReactNode }) => {
   const storeRef = useRef<AppStore>(undefined);
@@ -11,7 +12,7 @@ const StoreProvider = ({ children }: { children: React.ReactNode }) => {
     storeRef.current = makeStore();
   }
 
-  return <Provider store={storeRef.current}>{children}</Provider>;
+  return <Provider store={storeRef.current}><GlobalStyle />{children}</Provider>;
 };
 
 export default StoreProvider;
